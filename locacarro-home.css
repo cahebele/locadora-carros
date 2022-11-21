@@ -1,9 +1,6 @@
-.banner {
-	width:100%;
-}
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: linear-gradient(90deg, #026A9F 60%, #D9D9D9 40.1%);
+	background:  #026A9F ;
 }
 
 header {
@@ -40,6 +37,9 @@ nav a:hover {
 	color: #C78C19;
 	text-decoration: underline;
 }
+.banner {
+	width:100%;
+}
 
  /* main */
  .principal{
@@ -50,24 +50,19 @@ nav a:hover {
 .titulo-principal {
 	padding-left: 30px;
 	color: #C78C19;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 30px;
-}
-
-p {
+	font-family: Copperplate, Papyrus, fantasy;
+	font-size: 40px;
 	text-align: center;
 }
-
-.missao {
-	font-size: 30px
-}
-
-em strong {
-	color: #FF0000;
+.beneficios
+{
+	text-align: center;
+	font-size: 20px;
 }
 
 .descrição {
-	font-size: 20px
+	font-size: 20px;
+	text-align: center;
 }
 
 .Carros {
@@ -109,9 +104,12 @@ em strong {
 }
 
 :root {
-    --cor-primaria-success: #C78C19;
-    --cor-hover-success: rgb(116, 158, 137);
-    --cor-secundaria-success: rgb(27, 66, 50);
+    --cor-primaria-estoque: #C78C19;
+    --cor-hover-estoque: rgb(116, 158, 137);
+    --cor-secundaria-estoque: rgb(27, 66, 50);
+	--cor-primaria-SaibaMais: #C78C19;
+    --cor-hover-SaibaMais: rgb(116, 158, 137);
+    --cor-secundaria-SaibaMais: rgb(27, 66, 50);
 
 }
 .btn {
@@ -126,35 +124,54 @@ em strong {
 	margin: 10px;
 }
 
-/*SUCCESS*/
-.btn-success {
-    background-color: var(--cor-primaria-success);
+/*Estoque*/
+
+.estoque{
+	text-align: center;
+	padding: 20px 830px ;
+}
+
+.btn-estoque {
+    background-color: var(--cor-primaria-estoque);
     outline: none;
-    color: var(--cor-secundaria-success);
+    color: var(--cor-secundaria-estoque);
 }
 
-.btn-success:hover {
-    background-color: var(--cor-hover-success);
+.btn-estoque:hover {
+    background-color: var(--cor-hover-estoque);
 }
 
-.btn-success:active {
+.btn-estoque:active {
     color:var(--cor-primaria-success);
-    background-color: var(--cor-secundaria-success);
+    background-color: var(--cor-secundaria-estoque);
 }
+/*SaibaMais*/
 .btn-SaibaMais {
-    background-color: var(--cor-primaria-success);
+    background-color: var(--cor-primaria-SaibaMais);
     outline: none;
-    color: var(--cor-secundaria-success)
+    color: var(--cor-secundaria-SaibaMais)
 }
 
 .btn-SaibaMais:hover {
-    background-color: var(--cor-hover-success);
+    background-color: var(--cor-hover-SaibaMais);
 }
 
 .btn-SaibaMais:active {
-    color:var(--cor-primaria-success);
-    background-color: var(--cor-secundaria-success);
+    color:var(--cor-primaria-SaibaMais);
+    background-color: var(--cor-secundaria-SaibaMais);
 }
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+.copyright {
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+
 
 
 
