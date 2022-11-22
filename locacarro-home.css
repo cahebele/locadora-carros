@@ -65,6 +65,50 @@ nav a:hover {
 	text-align: center;
 }
 
+#divBusca{
+	background-color:#eceef3;
+	border:solid 2px #C78C19;
+	border-radius:10px;
+	width:770px;
+	height:34px;
+	margin-left: 560px;
+    margin-top: 30px;
+	padding: 10px 10px;
+	}
+  #txtBusca{
+	background-color:#eceef3;
+	border:solid 2px #C78C19;
+	border-radius:10px;
+	padding-left:5px;
+	font-size:18px;
+	height:32px;
+	width:310px;
+}
+  .btn-Busca{text-align: center;
+	padding: 20px 830px ;
+	font-size:18px;
+	margin-left: 680px;
+	margin-top: -36px;
+	width:900px;
+	font-weight:bold;
+	background:#C78C19;
+	outline: none;
+}
+  #datainicio{
+	padding: 5px;
+	font-size:18px;
+	border-radius:10px;
+	background-color:#eceef3;
+	border:solid 2px #C78C19;
+}
+  #datadevolução{
+	padding: 5px;
+	font-size:18px;
+	border-radius:10px;
+	background-color:#eceef3;
+	border:solid 2px #C78C19;
+}
+
 .Carros {
 	width: 940px;
 	margin: 0 auto;
